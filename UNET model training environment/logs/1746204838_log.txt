@@ -1,0 +1,22 @@
+val_dice	train_loss	val_loss	best_epoch	timestamp
+0.8369	0.2297	0.2203	19	1746204838
+n_trainable_params: 14788929, n_nontrainable_params: 0
+training arguments:
+>>> impath: shoe_dataset
+>>> imsize: 256
+>>> aug_prob: 0.5
+>>> batch_size: 16
+>>> num_epoch: 20
+>>> optimizer: <class 'torch.optim.adam.Adam'>
+>>> lr: 0.001
+>>> l2reg: 1e-05
+>>> use_bilinear: False
+>>> inference: False
+>>> use_crf: False
+>>> checkpoint: None
+>>> backend: False
+>>> prefetch: False
+>>> device: cpu
+>>> multi_gpu: off
+>>> model_name: unet
+>>> impaths: {'train': 'C:/Users/Fourth/data/SEGMENTATION DATA SET/ISIC2018_Task1-2_Training_Input', 'val': 'C:/Users/Fourth/data/SEGMENTATION DATA SET/ISIC2018_Task1-2_Validation_Input', 'test': 'C:/Users/Fourth/data/SEGMENTATION DATA SET/ISIC2018_Task1-2_Test_Input', 'btrain': 'C:/Users/Fourth/data/SEGMENTATION DATA SET/ISIC2018_Task1_Training_GroundTruth', 'bval': 'C:/Users/Fourth/data/SEGMENTATION DATA SET/ISIC2018_Task1_Validation_GroundTruth'}
